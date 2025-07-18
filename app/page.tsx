@@ -1,3 +1,4 @@
+import Cocktail from "@/components/Cocktail";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import gsap from "gsap";
@@ -12,6 +13,7 @@ const Home = () => {
     <main>
       <Navbar />
       <Hero />
+      <Cocktail />
     </main>
   );
 };
