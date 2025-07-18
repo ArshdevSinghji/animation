@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Art from "@/components/Art";
 import Cocktail from "@/components/Cocktail";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -16,6 +17,7 @@ const Home = () => {
       <Hero />
       <Cocktail />
       <About />
+      <Art />
     </main>
   );
 };
